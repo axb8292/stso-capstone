@@ -1,0 +1,28 @@
+body, html {
+	height: 100%;
+}
+
+.bgimg {
+	background-image: url('bg.jpg');
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	color: white;
+	font-family: monospace;
+}
+
+.content {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	font-size: 2em;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+hr {
+	margin: auto;
+	width: 40%;
+	color: white;
+}
