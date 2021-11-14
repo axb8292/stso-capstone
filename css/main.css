@@ -46,6 +46,17 @@ figcaption {
   color: #d4cece;
 }
 
+.ref {
+  vertical-align: super;
+  font-size: smaller;
+  color: #44c767;
+  text-decoration: none;
+}
+
+.ref:hover {
+  color: #61b9e2;
+}
+
 .button {
   background-color: #44c767;
   border-radius: 28px;
