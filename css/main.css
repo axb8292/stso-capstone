@@ -78,6 +78,7 @@
   color: #fff;
   margin: none;
   padding: 2em;
+  overflow: auto;
 }
 
 figcaption {
@@ -156,16 +157,25 @@ figure img {
   .left {
     float: left;
     margin: 1em 2em 1em 0;
+    clear: left;
   }
 
   .right {
     float: right;
     margin: 1em 0 1em 2em;
+    clear: right;
   }
 
   .left,
   .right {
-    max-width: 35%;
+    max-width: 20%;
+  }
+
+  .center {
+    max-width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .betta-child,
