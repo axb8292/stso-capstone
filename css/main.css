@@ -52,9 +52,9 @@
   padding-top: 2em;
   display: inline-block;
   animation: wiggle 2.5s infinite;
+  max-width: 15em;
 }
 
-/* TODO: scale for mobile devices */
 .fish-button:hover {
   animation: none;
   transform: scale(1.1);
