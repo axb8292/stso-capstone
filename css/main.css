@@ -123,6 +123,15 @@ figure img {
   color: #61b9e2;
 }
 
+a {
+  color: #44c767;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #61b9e2;
+}
+
 /* Choice page background */
 .choice {
   position: absolute;
