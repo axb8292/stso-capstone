@@ -168,6 +168,10 @@ figure img {
   height: 100%;
 }
 
+li {
+  padding: 1em 0;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .content {
@@ -254,6 +258,10 @@ figure img {
     width: 500px;
     height: 500px;
     border-radius: 2em;
+  }
+
+  ol {
+    padding: 0 10em;
   }
 }
 
