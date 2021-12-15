@@ -182,14 +182,6 @@ li {
 }
 
 /* Slideshow styles */
-.slide-image {
-  width: 100%;
-}
-
-.dots {
-  text-align: center;
-}
-
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -239,6 +231,14 @@ li {
   padding: 8px 12px;
   position: absolute;
   top: 0;
+}
+
+.slide-image {
+  width: 100%;
+}
+
+.dots {
+  text-align: center;
 }
 
 .dot {
@@ -309,8 +309,7 @@ li {
   }
 
   .slideshow-container {
-    width: 60%;
-    margin: auto;
+    width: 80%;
   }
 }
 
@@ -369,6 +368,10 @@ li {
 
   ol {
     padding: 0 10em;
+  }
+
+  .slideshow-container {
+    width: 60%;
   }
 }
 
